@@ -1,0 +1,27 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 450px; margin: 0 auto; }
+#content_box { position: relative; float: left; width: 600px; left: 50px; }
+
+/* 마이페이지 폼 */
+#content_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#content_title span { font-size: 30px; font-weight: bold; }
+#mypage_form { margin-top: 20px; font-weight: bold;}
+#mypage_form .col1 { float: left; width: 110px; margin-top: 4px; }
+#mypage_form .col2 { float: left; width: 400px; font-weight: normal;  margin-top: 4px;}
+#mypage_form .form { height: 38px; }
+#mypage_form .bottom_line { margin-top: 10px; border-bottom: solid 1px #cccccc; }
+#mypage_form .buttons { text-align: right; margin: 20px 60px 0 0; }
+
+/* 회원정보 수정 폼 */
+#modify_form .form { margin-top: 20px; font-weight: bold;}
+#modify_form .col1 { float: left; width: 110px; margin-top: 4px; }
+#modify_form .col2 { float: left; width: 400px; font-weight: normal;}
+#modify_form .form { height: 18px; }
+#modify_form input { position: relative; height: 26px; top: -6px; }
+#modify_form input[name=email1] { width: 100px; }
+#modify_form select[name=email2] { position: relative; top: -5px; width: 150px; height: 30px; }
+#modify_form input[name=num1] { width: 100px; }
+#modify_form input[name=num2] { width: 100px; }
+#modify_form input[name=num3] { width: 100px; }
+#modify_form .bottom_line { margin-top: 30px; border-bottom: solid 1px #cccccc; }
+#modify_form .buttons { text-align: right; margin: 20px 60px 0 0; }

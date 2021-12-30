@@ -1,0 +1,12 @@
+
+/* 초록색 긴 가로줄 */
+#upper_line { height: 6px; background-color: #21d142; }	
+
+/* 초록색 서브메뉴 */
+#sub_menu { float: left; width: 200px; height: 100%; background-color: #21d142; font-weight: bold;}
+#sub_menu > ul > li { text-align: center; margin: 20px 0 0 0; padding: 5px; color: white; font-size: 30px;}
+#sub_menu > ul > li > ul { margin: 60px 10px 0 10px; }
+#sub_menu > ul > li > ul > li { margin: 0 0 15px 0; text-align: left; font-size: 20px; border-bottom: 1px solid #dddddd; }
+#sub_menu > ul > li > ul > li > a { color: white; }
+#sub_menu > ul > li > ul > li > span { color: #fbff10; }
+#sub_menu > ul > li > ul > li > span > a { color: #fbff10; }

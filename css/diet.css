@@ -1,0 +1,14 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 500px; margin: 0 auto;  }
+#diet_box { position: relative; float: left; width: 650px;	left: 50px; }
+
+/* 식단 보기(diet_form.php) */
+#diet_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#diet_title span {	font-size: 30px; font-weight: bold; }
+#move_day { padding: 20px; text-align: center; }
+#move_day span:nth-child(2) { position: relative; font-size: 30px; top: -10px; }
+#move_day img { width: 40px; height: 40px; cursor: pointer; }
+#diet_table table { border: 1px solid #a3a3a3; width: 650px; margin: 0 auto; font-size: 17px; }
+#diet_table tr:nth-child(1) { font-weight: bold; }
+#diet_table td { border: 1px solid #a3a3a3; text-align: center; }
+#diet_table td > ul > li  { padding: 5px 0 5px 0; }

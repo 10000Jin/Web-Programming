@@ -1,0 +1,39 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 640px; margin: 0 auto;  }
+#fix_box { position: relative; float: left; width: 650px;	left: 50px; }
+
+/* 고장/수리 요청 글쓰기(fix_form.php) */
+#fix_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#fix_title span {	font-size: 30px; font-weight: bold; }
+#fix_form span { display: inline-block; font-weight: bold; }
+#fix_form .col1 { width: 100px; }
+#fix_form li { padding: 12px; border-bottom: solid 1px #dddddd; }
+#fix_form input { width: 500px; height: 25px; }
+#fix_form textarea { width: 500px;	height: 150px; }
+#fix_form #text_area {	position: relative;	height: 158px; }
+#fix_form #text_area .col1 { position: absolute; top: 10px; }
+#fix_form #text_area .col2 { position: absolute; left: 118px; }
+#fix_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#fix_box .buttons li { display: inline; }
+#fix_box .buttons button { padding: 5px 10px; cursor: pointer; }
+
+/* 고장/수리 요청 목록보기(fix_list.php) */
+#fix_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#title { background-color: #dddddd; }
+#title span { font-weight: bold; }
+#fix_list span { display: inline-block; text-align: center;}
+#fix_list .col1 { width: 40px; }
+#fix_list .col2 { width: 230px; text-align: left; }
+#fix_list .col3 { width: 70px; }
+#fix_list .col4 { width: 40px; }
+#fix_list .col5 { width: 180px; }
+#fix_list .col6 { width: 40px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+
+/* 고장/수리 요청 내용보기(fix_view.php) */
+#view_content .col2 { float: right; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content li:nth-child(2) {	font-weight: normal; padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+

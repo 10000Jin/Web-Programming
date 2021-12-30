@@ -1,0 +1,41 @@
+/* 메인 콘텐트, 공통 */
+#main_content { position: relative; width: 1000px; height: 640px; margin: 0 auto;  }
+#content_box { position: relative; float: left; width: 650px;	left: 50px; }
+#content_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#content_title span {	font-size: 30px; font-weight: bold; }
+
+
+/* 생활관장 인사말 폼 */
+#greeting {position: relative; top: 60px; border: 2px dashed #ffbe10; border-radius: 20px / 20px; }
+#greet li { font-size: 30px; font-weight: bold; padding: 20px 0 20px 10px;}
+#greet p { line-height: 1.8; padding: 0 10px 20px 10px;}
+
+
+/* 시설 소개 폼 */
+#imgs { position: relative; top: -82px; }
+#imgs > ul { margin-top: 120px; background-color: #13a0bd; padding: 12px 0 12px 0; }
+#imgs > ul > span { color: white; font-size: 21px; font-weight: bold; padding-left: 10px;}
+#dorm { position: relative; top: -48px; border: 1px solid #b5bbbd; height: 265px; }
+#dorm img { position: relative; top: 47px; width: 293px; height: 220px; object-fit: cover; float: left;}
+#dorm ul { position: relative; top: 70px; float: right; margin-top: -24px; width: 355px; }
+#dorm p { font-size: 13px; background-color: #dce3e6; padding: 10px 8px 10px 8px; line-height: 1.3;}
+#dorm li { padding: 7px 0 7px 10px; font-size: 17px; }
+#dorm #one1 { padding-top: 30px;}
+
+#facility {position: relative; top: -40px; }
+#facility ul {position: relative; top: 70px;}
+#facility > ul > span { font-size: 21px; font-weight: bold; }
+#facility img { width: 200px; height: 149px; }
+#facility .img { float: left; padding: 20px 0 0 0;}
+#facility img {padding-right: 13px;}
+#facility .title { float: left; width: 650px; margin: 0 auto;}
+#facility .title span { float: left; width: 210px; text-align: center;}
+
+
+/* 오시는 길 폼 */
+#map { height: 300px; width: 450px; position: relative; left: 100px; top: 30px; } 
+#way { position: relative; top: 70px; font-size: 16px;}
+#content_box #way li { padding-top: 5px; }
+#content_box #two { position: relative; left: 105px; }
+#content_box #three { padding-top: 10px; }
+#content_box #four { position: relative; left: 90px; }

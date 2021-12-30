@@ -1,0 +1,76 @@
+/* 메인 콘텐트, 공통 */
+#main_content { position: relative; width: 1000px; height: 640px; margin: 0 auto;  }
+#content_box { position: relative; float: left; width: 650px;	left: 50px; }
+#content_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+#content_title span {	font-size: 30px; font-weight: bold; }
+
+
+
+/* 상벌점표 폼 */
+#reward { position: relative; top: 30px; left: 50px;}
+#reward ul { font-size: 21px; padding-bottom: 15px; font-weight: bold; }
+#reward table { border: 2px solid #a3a3a3; text-align: center;}
+#reward td { border: 2px solid #a3a3a3; }
+#reward tr:nth-child(1) { background-color: #cfcfcf; font-weight: bold;}
+#reward .col1 { width: 80px; padding: 7px 0 7px 0;}
+#reward .col2 { width: 450px; }
+
+#penalty { position: relative; top: 80px; left: 50px; }
+#penalty ul { font-size: 21px; padding-bottom: 15px; font-weight: bold; }
+#penalty table { border: 2px solid #a3a3a3; text-align: center;}
+#penalty td { border: 2px solid #a3a3a3; }
+#penalty tr:nth-child(1) { background-color: #cfcfcf; font-weight: bold; }
+#penalty .col1 { width: 80px; padding: 5px 0 5px 0;}
+#penalty .col2 { width: 450px; text-align: left; line-height: 1.5; padding: 5px 0 5px 8px;}
+#penalty tr:nth-child(1) > td { text-align: center; }
+
+
+
+/* 비상 연락망 폼 */
+#contact_num { margin-top: 30px; }
+#contact_num table { font-size: 17px; border: 2px solid #a3a3a3; margin: 0 auto; }
+#contact_num tr:nth-child(1) { font-weight: bold; background-color: #cfcfcf; }
+#contact_num td {padding: 5px;}
+#contact_num td { border: 2px solid #a3a3a3; text-align: center; }
+#contact_num td:nth-child(1) { width: 150px; height: 10px; }
+#contact_num td:nth-child(2) { width: 250px; height: 10px; }
+
+
+/* 선발 기준 폼 */
+#criteria { position: relative; top: 50px; }
+#criteria ul { font-size: 21px; padding-bottom: 15px; font-weight: bold; }
+#criteria table { border: 2px solid #a3a3a3; text-align: center; line-height: 1.3; }
+#criteria td { border: 2px solid #a3a3a3; padding: 5px 0 5px 0; }
+#criteria tr:nth-child(1) { font-weight: bold; background-color: #cfcfcf; }
+#criteria .col1 { width: 50px; }
+#criteria .col2 { width: 200px; }
+#criteria .col3 { width: 300px; }
+#criteria .col4 { width: 50px; }
+#criteria .col5 { width: 50px; }
+#notice {position: relative; top: 30px;}
+
+
+/* 입퇴사 안내 폼 */
+#in { position: relative; top: 50px; left: 40px;}
+.sub_title { font-size: 21px; font-weight: bold; padding-bottom: 20px; }
+#in p { padding-left: 20px; line-height: 1.4; }
+
+#out {position: relative; top: 80px; left: 40px;}
+#out li { font-weight: bold; padding-bottom: 6px; padding-top: 15px;}
+#out p { padding-left: 20px; line-height: 1.4; }
+
+
+
+
+/* 관리비 폼 */
+#pay { margin-top: 30px;  }
+#pay li { position: relative; font-size: 25px; font-weight: bold; left: 120px; padding-bottom: 6px; }
+#pay #sec { padding-top: 35px; }
+#pay table { font-size: 17px; border: 2px solid #a3a3a3; margin: 0 auto; }
+#pay tr:nth-child(1) { font-weight: bold; background-color: #cfcfcf; }
+#pay td {padding: 5px;}
+#pay td { border: 2px solid #a3a3a3; text-align: center; }
+#pay td:nth-child(1) { width: 150px; height: 10px; }
+#pay td:nth-child(2) { width: 250px; height: 10px; }
+
+

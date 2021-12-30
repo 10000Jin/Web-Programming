@@ -1,0 +1,34 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 640px; margin: 0 auto;  }
+#content_box { position: relative; float: left; width: 650px;	left: 50px; }
+
+/* 제목 */
+.content_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10; }
+.content_title span {	font-size: 30px; font-weight: bold; }
+
+/* 입사 신청서 */
+.title { background-color: #dddddd; }
+.title span { font-weight: bold; }
+.under_line { border-bottom: solid 1px #dddddd; }
+#apply_list span { display: inline-block; text-align: center; padding: 3px 0 3px 0; }
+#apply_list .col1 { width: 90px; }
+#apply_list .col2 { width: 60px; }
+#apply_list .col3 { width: 140px; }
+#apply_list .col4 { width: 60px; }
+#apply_list .col5 { width: 70px; }
+#apply_list .col6 { width: 150px; }
+#apply_list .col7 { width: 50px; }
+#apply_list button { width: 50px; }
+
+
+/* 공지사항 관리 */
+#notice_manage span { display: inline-block; text-align: center; padding: 5px 0 5px 0; }
+#notice_manage .col1 { width: 40px; }
+#notice_manage .col2 { width: 40px; }
+#notice_manage .col3 { width: 60px; }
+#notice_manage .col4 { width: 200px; text-align: left; }
+#notice_manage .col5 { width: 130px; }
+#notice_manage .col6 { width: 150px; }
+#notice_manage button { margin-top: 10px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
